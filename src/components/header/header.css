@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.signature {
+    color: whitesmoke;
+}
+
+.hide {
+    display: none;
+}
+
+.jumper-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}

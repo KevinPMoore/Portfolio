@@ -43,11 +43,11 @@ export default class Header extends React.Component {
                     <div
                         className='jumper-container'
                     >
-                        <a className="jumper" href="#about-me">About Me</a>
-                        <a className="jumper" href="#portfolio">Portfolio</a>
-                        <a href="https://github.com/KevinPMoore" target="_blank">Github</a>
-                        <a href="https://www.linkedin.com/in/kevin-p-moore/" target="_blank">LinkedIn</a>
-                        <a className="jumper" href="#contact">Contact Me</a>
+                        <a className='jumper' href='#about-me'>About Me</a>
+                        <a className='jumper' href='#portfolio'>Portfolio</a>
+                        <a href='https://github.com/KevinPMoore' target='_blank' rel='noopener noreferrer'>Github</a>
+                        <a href='https://www.linkedin.com/in/kevin-p-moore/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+                        <a className='jumper' href='#contact'>Contact Me</a>
                     </div>
                 </nav>
             </header>

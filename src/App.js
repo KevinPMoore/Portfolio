@@ -1,53 +1,34 @@
 import React from 'react';
 import Header from './components/header/header';
+import About from './components/about/about';
+import Projects from './components/projects/projects';
+import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 import './App.css';
 
 export default class App extends React.Component {
   state = {
-    focus: 'foreground',
     text: 'reveal',
     about: false,
     projects: false,
     contact: false
   };
 
-  updateFocus = () => {
-      if(this.state.focus === 'foreground') {
-          this.setState({
-              focus: 'background'
-          });
-      } else {
-          this.setState({
-              focus: 'foreground'
-          });
-      };
-  };
-
-  updateText = () => {
-      if(this.state.text ==='reveal'){
-          this.setState({
-              text: 'conceal'
-          });
-      } else {
-          this.setState({
-              text: 'reveal'
-          });
-      };
-  };
-
   updateAbout = () => {
     this.setState({
-      about: !this.state.about,
+      about: true,
       projects: false,
-      contact: false
+      contact: false,
+      text: 'conceal',
     });
   };
 
   updateprojects = () => {
     this.setState({
       about: false,
-      projects: !this.state.projects,
-      contact: false
+      projects: true,
+      contact: false,
+      text: 'conceal',
     });
   };
 
@@ -55,7 +36,8 @@ export default class App extends React.Component {
     this.setState({
       about: false,
       projects: false,
-      contact: !this.state.contact
+      contact: true,
+      text: 'conceal',
     });
   };
 
@@ -63,9 +45,10 @@ export default class App extends React.Component {
     return (
       <div className='App'>
         <Header/>
-        <main
-          className={this.state.focus}
-        >
+        <main>
+          {this.state.about === true ? <About/> : null}
+          {this.state.projects === true ? <Projects/> : null}
+          {this.state.contact === true ? <Contact/> : null}
           <h1
             className={this.state.text}
           >
@@ -96,6 +79,7 @@ export default class App extends React.Component {
             </button>
           </div>
         </main>
+        <Footer/>
       </div>
     );
   };

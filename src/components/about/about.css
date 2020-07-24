@@ -1,0 +1,13 @@
+.about-me {
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+
+.about-text {
+    max-width: 300px;
+    min-width: 200px;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}

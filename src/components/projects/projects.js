@@ -28,8 +28,8 @@ export default class Projects extends React.Component {
                         <p>
                             This project was built using HTML, Javascript and jQuery.
                         </p>
-                        <a className='code-link' href='https://thinkful-ei-iguana.github.io/Caleb-Kevin-Quiz/' target='_blank'>Try it out</a>
-                        <a className='code-link' href='https://github.com/thinkful-ei-iguana/Caleb-Kevin-Quiz' target='_blank'>See the code</a>
+                        <a className='code-link' href='https://thinkful-ei-iguana.github.io/Caleb-Kevin-Quiz/' target='_blank' rel='noopener noreferrer'>Try it out</a>
+                        <a className='code-link' href='https://github.com/thinkful-ei-iguana/Caleb-Kevin-Quiz' target='_blank' rel='noopener noreferrer'>See the code</a>
                     </div>
                     <div 
                         className='project'>
@@ -42,8 +42,8 @@ export default class Projects extends React.Component {
                         <p>
                             This project was built using HTML, Javascript, Jquery and API interfacing.
                         </p>
-                        <a className='code-link' href='https://thinkful-ei-iguana.github.io/Kevin-bookmarks-app/' target='_blank'>Try it out</a>
-                        <a className='code-link' href='https://github.com/thinkful-ei-iguana/Kevin-bookmarks-app' target='_blank'>See the code</a>
+                        <a className='code-link' href='https://thinkful-ei-iguana.github.io/Kevin-bookmarks-app/' target='_blank' rel='noopener noreferrer'>Try it out</a>
+                        <a className='code-link' href='https://github.com/thinkful-ei-iguana/Kevin-bookmarks-app' target='_blank' rel='noopener noreferrer'>See the code</a>
                     </div>
                 </div>
             </section>

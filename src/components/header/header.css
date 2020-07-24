@@ -3,18 +3,51 @@ header {
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
+    height: 62px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .signature {
     color: whitesmoke;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.burgericon {
+    height: 64px;
+    width: 64px;
+}
+
+.xicon {
+    height: 64px;
+    width: 64px;
+    display: block;
+    margin-left: auto;
+}
+
 .hide {
-    display: none;
+    display: none !important;
+}
+
+.toggle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
 }
 
 .jumper-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
 }

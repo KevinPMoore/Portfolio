@@ -1,0 +1,13 @@
+.contact {
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    height: 100%;
+    color: whitesmoke;
+}
+
+.profile {
+    min-width: 100px;
+    max-width: 200px;
+    min-height: 180px;
+    max-height: 360px;
+}

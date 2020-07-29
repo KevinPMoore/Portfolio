@@ -31,11 +31,19 @@ nav {
     width: 64px;
 }
 
+.burgericon:hover {
+    cursor: pointer;
+}
+
 .xicon {
     height: 64px;
     width: 64px;
     display: block;
     margin-left: auto;
+}
+
+.xicon:hover {
+    cursor: pointer;
 }
 
 .hide {
@@ -57,4 +65,8 @@ nav {
     height: 40px;
     width: 48px;
     font-size: 0.7rem;
+}
+
+.nav-button:hover {
+    cursor: pointer;
 }

@@ -4,6 +4,9 @@
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
     width: 100%;
     padding-top: 62px;
@@ -15,14 +18,22 @@ main {
 
 h1 {
     text-align: center;
+    padding-bottom: 62px;
+    color: whitesmoke;
 }
 
 h2 {
     text-align: center;
+    padding-bottom: 62px;
+    color: whitesmoke;
 }
 
 .main-buttons {
     padding-bottom: 22px;
+}
+
+.main-buttons:hover {
+    cursor: pointer;
 }
 
 .title {

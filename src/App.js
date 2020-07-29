@@ -45,14 +45,13 @@ export default class App extends React.Component {
     return (
       <div className='App'>
         <Header
-          updateAbout = {this.updateAbout}
-          updateContact = {this.updateContact}
-          updateProjects = {this.updateProjects}
+          updateAbout={this.updateAbout}
+          updateContact={this.updateContact}
+          updateProjects={this.updateProjects}
         />
         <main>
-          {this.state.about === true ? <About/> : null}
-          {this.state.projects === true ? <Projects/> : null}
-          {this.state.contact === true ? <Contact/> : null}
+          {this.state.projects === true ? <Projects projects={this.state.projects}/> : null}
+          {this.state.contact === true ? <Contact contact={this.state.contact}/> : null}
           <h1
             className={this.state.text}
           >
@@ -63,6 +62,7 @@ export default class App extends React.Component {
           >
             Full Stack Web Developer
           </h2>
+          <About about={this.state.about}/>
         </main>
         <Footer/>
       </div>

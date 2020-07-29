@@ -19,3 +19,17 @@ body {
   height: 100%;
   width: 100%;
 }
+
+a {
+  color: hotpink;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.4rem;
+  }
+}

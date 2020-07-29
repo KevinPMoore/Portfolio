@@ -2,10 +2,18 @@ import React from 'react';
 import './about.css';
 
 export default class About extends React.Component {
+    setClass() {
+        const classes = ['about-me'];
+        if(this.props.about === true) {
+            classes.push('focus');
+        };
+        return classes.join(' ');
+    };
+
     render() {
         return(
             <section 
-                className='about-me'
+                className={this.setClass()}
                 id='about-me'
             >
                 <h2

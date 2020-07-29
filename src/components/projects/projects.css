@@ -33,3 +33,22 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+@media screen and (min-width: 768px) {
+    .project-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 45%;
+        margin-bottom: 16px;
+        box-shadow: 5px 8px 8px black;
+    }
+
+    .screenshot {
+        max-width: 360px;
+        max-height: 300px;
+    }
+}

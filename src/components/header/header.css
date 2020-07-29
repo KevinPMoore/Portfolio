@@ -1,6 +1,6 @@
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     background-color: black;
     height: 62px;
@@ -19,11 +19,19 @@ header {
 
 .signature {
     color: whitesmoke;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 1.6rem;
 }
 
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 44px;
+    margin-top: -8px;
+    padding-bottom: 2px;
 }
 
 .burgericon {
@@ -47,7 +55,7 @@ nav {
 }
 
 .hide {
-    display: none !important;
+    display: none;
 }
 
 .toggle-container {
@@ -56,17 +64,42 @@ nav {
     justify-content: right;
 }
 
-.link-container {
-    display: flex;
-    flex-direction: row;
-}
-
 .nav-button {
     height: 40px;
-    width: 48px;
-    font-size: 0.7rem;
+    width: 52px;
+    font-size: 0.8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
 }
 
 .nav-button:hover {
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .signature {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2rem;
+    }
+
+    .xicon, .burgericon {
+        display: none;
+    }
+
+    .hide {
+        display: flex;
+    }
+
+    nav {
+        margin-top: 0;
+        height: 50px;
+    }
+
+    .nav-button {
+        height: 44px;
+        width: 68px;
+    }
 }

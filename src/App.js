@@ -23,7 +23,7 @@ export default class App extends React.Component {
     });
   };
 
-  updateprojects = () => {
+  updateProjects = () => {
     this.setState({
       about: false,
       projects: true,
@@ -44,7 +44,11 @@ export default class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <Header/>
+        <Header
+          updateAbout = {this.updateAbout}
+          updateContact = {this.updateContact}
+          updateProjects = {this.updateProjects}
+        />
         <main>
           {this.state.about === true ? <About/> : null}
           {this.state.projects === true ? <Projects/> : null}
@@ -59,25 +63,6 @@ export default class App extends React.Component {
           >
             Full Stack Web Developer
           </h2>
-          <div
-            className='main-buttons'
-          >
-            <button
-              onClick={this.updateAbout}
-            >
-              About
-            </button>
-            <button
-              onClick={this.updateprojects}
-            >
-              Projects
-            </button>
-            <button
-              onClick={this.updateContact}
-            >
-              Contact
-            </button>
-          </div>
         </main>
         <Footer/>
       </div>

@@ -48,7 +48,13 @@ nav {
     justify-content: right;
 }
 
-.jumper-container {
+.link-container {
     display: flex;
     flex-direction: row;
+}
+
+.nav-button {
+    height: 40px;
+    width: 48px;
+    font-size: 0.7rem;
 }

@@ -41,13 +41,40 @@ export default class Header extends React.Component {
                 >
                     <img className ='xicon' src={Xicon} alt='a white X' onClick={this.handleToggleClick}></img>
                     <div
-                        className='jumper-container'
+                        className='link-container'
                     >
-                        <a className='jumper' href='#about-me'>About Me</a>
-                        <a className='jumper' href='#portfolio'>Portfolio</a>
-                        <a href='https://github.com/KevinPMoore' target='_blank' rel='noopener noreferrer'>Github</a>
-                        <a href='https://www.linkedin.com/in/kevin-p-moore/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>
-                        <a className='jumper' href='#contact'>Contact Me</a>
+                        <button
+                            className='nav-button'
+                            onClick={this.props.updateAbout}
+                        >
+                            About Me
+                        </button>
+                        <button
+                            className='nav-button'
+                            onClick={this.props.updateProjects}
+                        >
+                            My Portfolio
+                        </button>
+                        <a href='https://github.com/KevinPMoore' target='_blank' rel='noopener noreferrer'>
+                            <button
+                                className='nav-button'
+                            >
+                                Github
+                            </button>
+                        </a>
+                        <a href='https://www.linkedin.com/in/kevin-p-moore/' target='_blank' rel='noopener noreferrer'>
+                            <button
+                                className='nav-button'
+                            >
+                                LinkedIn
+                            </button>
+                        </a>
+                        <button
+                            className='nav-button'
+                            onClick={this.props.updateContact}
+                        >
+                            Contact Me
+                        </button>
                     </div>
                 </nav>
             </header>

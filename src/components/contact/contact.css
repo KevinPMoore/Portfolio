@@ -7,7 +7,7 @@
 .contact-info {
     display: flex;
     flex-direction: row;
-    min-width: 300px;
+    min-width: 310px;
     max-width: 40%;
     min-height: 160px;
     border: 1px solid whitesmoke;
@@ -17,26 +17,41 @@
 
 .profile {
     width: 120px;
-    height: 160px;
+    height: 166px;
     float: left;
     padding: 2px;
 }
 
+ul:before{
+    content:attr(aria-label);
+    font-size:120%;
+    font-weight: bold;
+}
+
 .info {
     padding-left: 2px;
+    list-style: none;
 }
 
 @media screen and (min-width: 768px) {
+    .contact {
+        padding-top: 24px;
+    }
+
     .contact-info {
         min-width: 280px;
-        max-width: 40%;
+        max-width: 42%;
         min-height: 240px;
         max-height: 300px;
         box-shadow: 5px 8px 8px black;
     }
 
     .profile {
-        width: 168px;
+        width: 176px;
         height: 240px;
+    }
+
+    li {
+        font-size: 1.5rem;
     }
 }

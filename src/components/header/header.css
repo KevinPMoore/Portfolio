@@ -70,11 +70,15 @@ nav {
     font-size: 0.8rem;
     margin-top: auto;
     margin-bottom: auto;
+    background-color: #a9bdd8;
     color: black;
 }
 
-.nav-button:hover {
+button.nav-button:hover {
     cursor: pointer;
+    background-color: #3c265e;
+    color: whitesmoke;
+    transition: 1s;
 }
 
 @media screen and (min-width: 768px) {

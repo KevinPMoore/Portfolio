@@ -1,10 +1,17 @@
 footer {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     background-color: black;
     color: whitesmoke;
     height: 20px;
-    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        height: 24px;
+        padding-bottom: 4px;
+    }
 }

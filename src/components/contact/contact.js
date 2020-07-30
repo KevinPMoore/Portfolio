@@ -3,10 +3,20 @@ import Profile from './Profile.jpg';
 import './contact.css';
 
 export default class Contact extends React.Component {
+    setClass() {
+        const classes = ['about-me'];
+        if(this.props.contact === true) {
+            classes.push('focus');
+        };
+        return classes.join(' ');
+    };
     
     render() {
         return(
-            <section className='contact' id='contact'>
+            <section
+                className={this.setClass()}
+                id='contact'
+            >
                 <h2
                     className='title'
                 >

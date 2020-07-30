@@ -40,3 +40,110 @@ h2 {
     text-align: center;
     color: whitesmoke;
 }
+
+@keyframes focus {
+    0% {opacity: 0;}
+    10% {opacity: 0.1;}
+    20% {opacity: 0.2;}
+    30% {opacity: 0.3;}
+    40% {opacity: 0.4;}
+    50% {opacity: 0.5;}
+    60% {opacity: 0.6;}
+    70% {opacity: 0.7;}
+    80% {opacity: 0.8;}
+    90% {opacity: 0.9;}
+    100% {opacity: 1;}
+}
+
+.focus {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.45);
+    overflow: auto;
+    height: 100%;
+    animation-name: focus;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  @-webkit-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  @-o-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  @-ms-keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: top left;
+    }
+  
+    100% {
+      background-position: top right;
+    }
+  }
+
+.reveal {
+    color: hotpink;
+    background: -webkit-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.8,#fff));
+    background: -moz-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.8,#fff));
+    background: gradient(linear,left top,right top,from(#222),to(#222),color-stop(.8,#fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    -webkit-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    background-repeat: no-repeat;
+}
+
+.reveal:hover {
+    cursor: pointer;
+}

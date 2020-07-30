@@ -6,10 +6,18 @@ import KQ from './QuizSS.png';
 import './projects.css';
 
 export default class Projects extends React.Component {
+    setClass() {
+        const classes = ['portfolio'];
+        if(this.props.projects === true) {
+            classes.push('focus');
+        };
+        return classes.join(' ');
+    };
+
     render() {
         return(
             <section
-                className='portfolio' 
+                className={this.setClass()}
                 id='portfolio'
             >
                 <h2

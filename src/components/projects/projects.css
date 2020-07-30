@@ -1,7 +1,5 @@
 .portfolio {
-    display: flex;
-    flex-direction: column;
-    background: rgba(0, 0, 0, 0.6);
+    display: none;
     margin-bottom: 20px;
     height: 100%;
     overflow: auto;
@@ -38,7 +36,7 @@
     .portfolio {
         padding-top: 24px;
     }
-    
+
     .project-container {
         flex-direction: row;
         justify-content: space-evenly;

@@ -50,19 +50,21 @@ export default class App extends React.Component {
           updateProjects={this.updateProjects}
         />
         <main>
-          {this.state.projects === true ? <Projects projects={this.state.projects}/> : null}
-          {this.state.contact === true ? <Contact contact={this.state.contact}/> : null}
           <h1
             className={this.state.text}
+            onClick={this.updateAbout}
           >
             Kevin P. Moore
           </h1>
           <h2
             className={this.state.text}
+            onClick={this.updateAbout}
           >
             Full Stack Web Developer
           </h2>
           <About about={this.state.about}/>
+          <Projects projects={this.state.projects}/>
+          <Contact contact={this.state.contact}/>
         </main>
         <Footer/>
       </div>

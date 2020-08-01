@@ -86,7 +86,7 @@ h2 {
     -webkit-animation-name: shimmer;
     -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-delay: 4s;
+    -webkit-animation-delay: 2s;
     -webkit-background-size: 4rem 100%;
 }
 

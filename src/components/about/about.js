@@ -27,10 +27,10 @@ export default class About extends React.Component {
                     <p
                         className='about-text'
                     >
-                        Hi, I'm Kevin.  I’m a fullstack web developer based out of Atlanta, GA.  Trying to understand how things work has always fascinated me.  
-                        That fascination has driven me from a kid who spent countless hours playing with LEGOs to graduate studies in psychology and clinical 
-                        social work.  One thing that felt odd to me though was the fact I always found myself spending much of my free time at my computer despite 
-                        knowing very little about how computers actually worked.
+                        Hi, I'm Kevin.  I’m a fullstack web developer based out of Atlanta, GA.  I've always found myself absorbed in a quest to understand how 
+                        things work.  That fascination has driven me from a kid who spent countless hours playing with LEGOs to graduate studies in psychology 
+                        and clinical social work.  I've also always been a person who enjoyed spending much of my time in front of a computer.  It felt odd to 
+                        me though that how computers worked was something I knew very little about despite them being something that I enjoyed tremendously.
                     </p>
                     <p
                         className='about-text'

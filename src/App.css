@@ -64,86 +64,32 @@ h2 {
     animation-name: focus;
     animation-duration: 1s;
 }
-
-@-moz-keyframes shimmer {
-    0% {
-      background-position: top left;
-    }
   
-    100% {
-      background-position: top right;
-    }
-  }
-  
-  @-webkit-keyframes shimmer {
-    0% {
-      background-position: top left;
-    }
-  
-    100% {
-      background-position: top right;
-    }
-  }
-  
-  @-o-keyframes shimmer {
-    0% {
-      background-position: top left;
-    }
-  
-    100% {
-      background-position: top right;
-    }
-  }
-  
-  @-ms-keyframes shimmer {
-    0% {
-      background-position: top left;
-    }
-  
-    100% {
-      background-position: top right;
-    }
-  }
-  
-  @keyframes shimmer {
-    0% {
-      background-position: top left;
-    }
-  
-    100% {
-      background-position: top right;
-    }
+@keyframes shimmer {
+  0% {
+    background-position: top left;
   }
 
-.reveal {
-    color: hotpink;
-    background: -webkit-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.8,#fff));
-    background: -moz-gradient(linear,left top,right top,from(#222),to(#222),color-stop(.8,#fff));
-    background: gradient(linear,left top,right top,from(#222),to(#222),color-stop(.8,#fff));
-    -webkit-background-size: 125px 100%;
-    -moz-background-size: 125px 100%;
-    background-size: 125px 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-animation-name: shimmer;
-    -moz-animation-name: shimmer;
-    -webkit-animation-name: shimmer;
-    animation-name: shimmer;
-    -webkit-animation-duration: 3s;
-    -moz-animation-duration: 3s;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    animation-delay: 6s;
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    background-repeat: no-repeat;
+  100% {
+    background-position: bottom right;
+  }
 }
 
-.reveal:hover {
+.reveal {
+    display: inline-block;
+    color:hotpink;
+    background: hotpink -webkit-gradient(linear, 100% 0, 0 0, from(hotpink), color-stop(0.5, #ffffff), to(hotpink));
+    background-position: -4rem top;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-name: shimmer;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 4s;
+    -webkit-background-size: 4rem 100%;
+}
+
+span:hover {
     cursor: pointer;
 }

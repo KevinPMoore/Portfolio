@@ -52,15 +52,21 @@ export default class App extends React.Component {
         <main>
           <h1
             className={this.state.text}
-            onClick={this.updateAbout}
           >
-            Kevin P. Moore
+            <span
+              onClick={this.updateAbout}
+            >
+              Kevin P. Moore
+            </span>
           </h1>
           <h2
             className={this.state.text}
-            onClick={this.updateAbout}
           >
-            Full Stack Web Developer
+            <span
+              onClick={this.updateAbout}
+            >
+              Full Stack Web Developer
+            </span>
           </h2>
           <About about={this.state.about}/>
           <Projects projects={this.state.projects}/>

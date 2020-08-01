@@ -78,15 +78,12 @@ button.nav-button:hover {
     cursor: pointer;
     background-color: #3c265e;
     color: whitesmoke;
-    transition: 1s;
+    transition: 1.3s;
 }
 
 @media screen and (min-width: 768px) {
     .signature {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 2rem;
+        display: none;
     }
 
     .xicon, .burgericon {

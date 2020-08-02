@@ -49,7 +49,7 @@ export default class About extends React.Component {
                         encouraging for me, as it meant that I could also find a career in something I enjoyed but didn't understand.  I decided to enroll in 
                         Thinkful's Software Engineering program as a way to jump-start my learning.  It was a challenging journey, but it was also one of the
                         most rewarding thing I have ever done.  Now I tackle projects that use technology to help people thrive and engage with the world in 
-                        ways that empower them to do things they may not have tried before.  While I enjoy working independantly, I thrive in a team 
+                        ways that empower them to do things they may not have tried before.  While I enjoy working independently, I thrive in a team 
                         environment.  My belief is that collaborative work fosters the development of everyone involved and improves the final result.  
                         Learning is a lifelong pursuit and the best thing about that is that finding a new tool that expands what I can create always feels a 
                         little bit like magic to me.  If you're interested, you can check out some of my work in the Portfolio section of this site.

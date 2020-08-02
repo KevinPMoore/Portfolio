@@ -40,7 +40,7 @@ export default class Projects extends React.Component {
                             an existing one.  They can then decide what needs to be done and then manually or randomly decide who will do it.
                         </p>
                         <p>
-                            This project was built using React, Node.js and Express with PostgreSQL for the databse.
+                            This project was built using React, Node.js and Express with PostgreSQL for the database.
                         </p>
                         <div
                             className='link-container'
@@ -61,7 +61,7 @@ export default class Projects extends React.Component {
                             registration and login system allows users to save their progress between sessions to set a high score!
                         </p>
                         <p>
-                            This project was built using React, Node.js and Express with PostgreSQL for the databse.
+                            This project was built using React, Node.js and Express with PostgreSQL for the database.
                         </p>
                         <div
                             className='link-container'

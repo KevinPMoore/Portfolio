@@ -29,7 +29,7 @@ export default class Contact extends React.Component {
                         aria-label='How to reach me'
                     >
                         <li>
-                            Check out the rest of my work on my <a className='contact-link' href='https://github.com/KevinPMoore' target='_blank' rel='noopener noreferrer'>Github</a> page.
+                            Check out the rest of my work on my <a className='contact-link' href='https://github.com/KevinPMoore' target='_blank' rel='noopener noreferrer'>GitHub</a> page.
                         </li>
                         <li>
                             You are also welcome to connect with me on <a className='contact-link' href='https://www.linkedin.com/in/kevin-moore-8b972933/' target='_blank' rel='noopener noreferrer'>LinkedIn</a>.

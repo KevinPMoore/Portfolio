@@ -82,7 +82,7 @@ export default class Projects extends React.Component {
                             app lets users explore the internet's most comprehensive board game database and find the centerpiece of their next game night.
                         </p>
                         <p>
-                            This project was built using HTML, Javascript and jQuery while integrating the Board Game Atlas API.
+                            This project was built using HTML, JavaScript and jQuery while integrating the Board Game Atlas API.
                         </p>
                         <div
                             className='link-container'
@@ -103,7 +103,7 @@ export default class Projects extends React.Component {
                             metric conversions commonly used in cooking. Score and progress are displayed across the top of the screen.
                         </p>
                         <p>
-                            This project was built using HTML, Javascript and jQuery.
+                            This project was built using HTML, JavaScript and jQuery.
                         </p>
                         <div
                             className='link-container'

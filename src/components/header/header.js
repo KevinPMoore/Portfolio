@@ -67,7 +67,7 @@ export default class Header extends React.Component {
                         <button
                             className='nav-button'
                         >
-                            Github
+                            GitHub
                         </button>
                     </a>
                     <a  className='nav-button' href='https://www.linkedin.com/in/kevin-p-moore/' target='_blank' rel='noopener noreferrer'>
